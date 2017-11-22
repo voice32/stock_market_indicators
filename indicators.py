@@ -1,6 +1,6 @@
 """
 Copyright, Rinat Maksutov, 2017.
-Terms of use: You are free to use this code without any restrictions.
+License: GNU General Public License
 """
 
 import numpy as np
@@ -53,7 +53,7 @@ def macd(data, period_long=26, period_short=12, period_signal=9, column='<CLOSE>
     return data
 
 """
-Accumulation Distribution Line
+Accumulation Distribution 
 Source: http://stockcharts.com/school/doku.php?st=accumulation+distribution&id=chart_school:technical_indicators:accumulation_distribution_line
 Params: 
     data: pandas DataFrame
@@ -568,7 +568,7 @@ def chaikin_volatility(data, ema_periods=10, change_periods=10, high_col='<HIGH>
     return data
 
 """
-WILLIAM'S ACCUMULATION/DISTRIBUTION
+William's Accumulation/Distribution
 Source: https://www.metastock.com/customer/resources/taaz/?p=125
 Params: 
     data: pandas DataFrame
@@ -598,7 +598,7 @@ def williams_ad(data, high_col='<HIGH>', low_col='<LOW>', close_col='<CLOSE>'):
     return data
 
 """
-WILLIAM'S % R
+William's % R
 Source: https://www.metastock.com/customer/resources/taaz/?p=126
 Params: 
     data: pandas DataFrame
